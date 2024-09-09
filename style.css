@@ -149,7 +149,7 @@ footer {
 
     .item-resultado h2 {
         font-size: 1.3rem; /* Tamanho da fonte dos títulos em telas menores */
-        flex-direction: row; /* Teste de responsividade*/
+        /*flex-direction: row; /* Teste de responsividade*/
     }
 }
 
