@@ -1,4 +1,4 @@
-## **README.md - Buscador de Jogadores do Criciúma E.C.** 
+## Buscador de Jogadores do Criciúma E.C.** - realizado na imersão dev da Alura
 
 **O que é esse projeto?**
 
