@@ -22,6 +22,7 @@ h1 {
     letter-spacing: 0.4rem; /* Espaçamento entre letras */
 }
 
+/* Estiliza o header */
 header {
     font-size: 1.5rem;
     text-align: center;
@@ -79,6 +80,8 @@ section button:hover {
     margin-top: 1rem; /* Espaçamento acima da caixa de resultados */
     padding: 1rem; /* Espaçamento interno */
     border-radius: 0.6rem; /* Borda arredondada */
+    max-width: 80%; /* Teste de responsividade*/
+    margin: 0 auto; /* Teste de responsividade*/
 }
 
 /* Estiliza cada item de resultado */
@@ -88,6 +91,8 @@ section button:hover {
     padding: 1rem; /* Espaçamento interno */
     margin-bottom: 1rem; /* Espaçamento abaixo dos itens */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra leve */
+    display: flex; /* Teste de responsividade*/
+    gap: 1rem; /* Teste de responsividade*/
 }
 
 .item-resultado {
@@ -147,10 +152,12 @@ footer {
     .resultados-pesquisa {
         width: 40rem; /* Largura da caixa de resultados em telas menores */
         height: 40vh; /* Altura da caixa de resultados em telas menores */
+        max-width: 90%; /* Teste de responsividade*/
     }
 
     .item-resultado h2 {
         font-size: 1.3rem; /* Tamanho da fonte dos títulos em telas menores */
+        flex-direction: column; /* Teste de responsividade*/
     }
 }
 
